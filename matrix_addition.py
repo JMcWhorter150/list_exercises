@@ -13,3 +13,9 @@ while first_counter < len(matrix_one):
     matrix_empty.append(lst)
     first_counter += 1
 print(matrix_empty)
+
+for row_number in range(len(matrix_one)):
+    row = matrix_one[row_number]
+    for column_number in range(len(matrix_one[0])):
+        print(f"{row_number} {column_number}")
+        print(f"I want to add {matrix_one[row_number]} to {matrix_two[column_number]}")
